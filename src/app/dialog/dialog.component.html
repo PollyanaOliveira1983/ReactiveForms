@@ -1,0 +1,27 @@
+<mat-card>
+<h1 mat-dialog-title>
+  {{description}}</h1>
+<mat-dialog-content>
+<h4 mat-dialog-field>
+  Nome completo:&nbsp;{{name}}&nbsp;{{lastname}}
+</h4>
+<h4 mat-dialog-field>
+  CPF:&nbsp;{{cpf}}
+</h4>
+<h4 mat-dialog-field>
+  Contato:&nbsp;{{telephone}}
+</h4>
+<h4 mat-dialog-field>
+  Endereço:&nbsp;{{adress}}
+</h4>
+<h4 mat-dialog-field>
+  Complemento:&nbsp;{{complement}}
+</h4>
+<h4 mat-dialog-field>
+  Usuário:&nbsp;{{username}}
+</h4>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button class="mat-raised-button"(click)="close()">Close</button>
+</mat-dialog-actions>
+</mat-card>

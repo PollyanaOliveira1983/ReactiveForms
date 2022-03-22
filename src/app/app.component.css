@@ -1,0 +1,23 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#main-form {
+  width: 750px;
+
+}
+
+.form-angular{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.grow {
+  width: 100%;
+}
+
